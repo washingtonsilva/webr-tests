@@ -1,0 +1,14 @@
+---
+title: "Easy WebR in Quarto"
+format: html
+engine: knitr
+filters: 
+- webr
+---
+
+```{webr-r}
+fit = lm(mpg ~ am, data = mtcars)
+summary(fit)
+```
+
+
